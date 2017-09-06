@@ -24,6 +24,7 @@ public class Question5{
 		pointC[1] = (double)input.nextInt();
 		
 		System.out.println("The triangle is: " + checkTriangle(lengthOfSides(pointA, pointB, pointC)));
+		input.close();
 	}
 	public static double[] lengthOfSides(double[] A, double[] B, double[] C){
 		double[] sides = new double[3];
