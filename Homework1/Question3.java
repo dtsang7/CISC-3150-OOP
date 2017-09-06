@@ -9,7 +9,7 @@ public class Question3{
 		String[] months = {"January","February","March","April","May","June","July",
 							"August","September","October","November","December"};
 		
-		int random = (int)(Math.random()*12);
-		System.out.println(months[random]);
+		int random = (int)(Math.random()*12 + 1);
+		System.out.println(months[random - 1]);
 	}
 }
