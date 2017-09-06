@@ -22,6 +22,7 @@ public class Question6{
 		double radiusB = input.nextInt();
 		
 		System.out.println("The circles are " + checkForOverlap(radiusA,radiusB,calcDistance(centerA, centerB)));
+		input.close();
 	}
 	public static double calcDistance(double[] A, double[] B){
 		
