@@ -13,5 +13,6 @@ public class Question4{
 		while(input.hasNext()){
 			System.out.println(input.next());
 		}
+		input.close();
 	}
 }
