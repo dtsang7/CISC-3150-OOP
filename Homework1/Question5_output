@@ -1,0 +1,34 @@
+CTsang-MBP:Desktop dtsang$ java Question5
+Please enter coordinates for point A(press ENTER after each value of x and y):
+2
+1
+Please enter coordinates for point B(press ENTER after each value of x and y):
+4
+4
+Please enter coordinates for point C(press ENTER after each value of x and y):
+4 
+1
+The triangle is: true
+CTsang-MBP:Desktop dtsang$ java Question5
+Please enter coordinates for point A(press ENTER after each value of x and y):
+2
+7
+Please enter coordinates for point B(press ENTER after each value of x and y):
+4
+8
+Please enter coordinates for point C(press ENTER after each value of x and y):
+9
+0
+The triangle is: true
+CTsang-MBP:Desktop dtsang$ java Question5
+Please enter coordinates for point A(press ENTER after each value of x and y):
+1
+1
+Please enter coordinates for point B(press ENTER after each value of x and y):
+3
+5
+Please enter coordinates for point C(press ENTER after each value of x and y):
+5
+9
+The triangle is: false
+CTsang-MBP:Desktop dtsang$ 

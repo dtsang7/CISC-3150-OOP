@@ -1,0 +1,49 @@
+CTsang-MBP:Desktop dtsang$ java Question6
+Please enter center coordinates of circle A (press Enter after each value): 
+2
+2
+Please enter the radius of circle A: 
+1
+Please enter center coordinates of circle B (press Enter after each value): 
+6
+2
+Please enter the radius of circle B: 
+2
+The circles are seperate from each other
+CTsang-MBP:Desktop dtsang$ java Question6
+Please enter center coordinates of circle A (press Enter after each value): 
+3
+2
+Please enter the radius of circle A: 
+1
+Please enter center coordinates of circle B (press Enter after each value): 
+6
+2
+Please enter the radius of circle B: 
+2
+The circles are touching each other
+CTsang-MBP:Desktop dtsang$ java Question6
+Please enter center coordinates of circle A (press Enter after each value): 
+4
+2
+Please enter the radius of circle A: 
+1
+Please enter center coordinates of circle B (press Enter after each value): 
+6
+2
+Please enter the radius of circle B: 
+2
+The circles are overlapping each other
+CTsang-MBP:Desktop dtsang$ java Question6
+Please enter center coordinates of circle A (press Enter after each value): 
+5
+2
+Please enter the radius of circle A: 
+1
+Please enter center coordinates of circle B (press Enter after each value): 
+6
+2
+Please enter the radius of circle B: 
+2
+The circles are within each other
+CTsang-MBP:Desktop dtsang$ 
