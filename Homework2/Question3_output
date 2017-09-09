@@ -1,0 +1,17 @@
+CTsang-MBP:Homework2 dtsang$ java Question3
+Please enter a word: 
+madamimadam
+It is a palindrome
+CTsang-MBP:Homework2 dtsang$ java Question3
+Please enter a word: 
+racecar
+It is a palindrome
+CTsang-MBP:Homework2 dtsang$ java Question3
+Please enter a word: 
+coding 
+It is NOT a palindrome
+CTsang-MBP:Homework2 dtsang$ java Question3
+Please enter a word: 
+pulp
+It is NOT a palindrome
+CTsang-MBP:Homework2 dtsang$ 

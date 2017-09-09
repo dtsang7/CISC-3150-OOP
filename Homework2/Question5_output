@@ -1,0 +1,18 @@
+CTsang-MBP:Homework2 dtsang$ javac Question5.java
+CTsang-MBP:Homework2 dtsang$ java Question5
+Please enter values seperated by commas:
+543,379,234,197,764,
+543
+379
+234
+197
+764
+
+CTsang-MBP:Homework2 dtsang$ java Question5
+Please enter values seperated by commas:
+653,843,325,477
+653
+843
+325
+477
+CTsang-MBP:Homework2 dtsang$ 
