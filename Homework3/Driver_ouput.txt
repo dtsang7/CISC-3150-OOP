@@ -1,0 +1,17 @@
+CTsang-MacBook-Pro:CISC-3150-OOP dtsang$ javac Homework3/*.java
+CTsang-MacBook-Pro:CISC-3150-OOP dtsang$ java Homework3.Driver
+toString() output:	Hello World!
+toUpperCase() output:	HELLO WORLD!
+toString() output:	Hello World!
+toLowerCase() output:	hello world!
+toString() output:	Hello World!
+
+charAt(10) output:	d
+length() output:	12
+substring(1,8) output:	ello Wo
+toString() output:	Hello World!
+equals() output:	true
+equals() output:	false
+getMyString() output:	Hello World!
+valueOf() output:	4231
+CTsang-MacBook-Pro:CISC-3150-OOP dtsang$ 
