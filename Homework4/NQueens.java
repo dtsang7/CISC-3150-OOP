@@ -1,4 +1,12 @@
 
+/*
+*	Chipok Tsang
+*
+*	This program prints and returns the number of solutions for the
+*	N Queens problem by accepting an N input by the user.
+*
+*/
+
 import java.util.Scanner;
 public class NQueens {
 	private int count = 0;
@@ -9,7 +17,7 @@ public class NQueens {
 		if(input.hasNextInt()){
 			int n = input.nextInt();
 			if(n < 1){
-				System.out.println("Invalid input");
+				System.out.println("Invalid input. Enter a positive integer.");
 			}
 			else if(n == 1){
 				System.out.println("Solutions: " + n);
@@ -19,8 +27,7 @@ public class NQueens {
 			}
 			else{
 				NQueens board = new NQueens();
-				board.solutions(n);
-				System.out.println("Solutions: " + board.getCount());
+				System.out.println("Solutions: " + board.solutions(n));
 			}
 		}
 		else{
@@ -30,9 +37,10 @@ public class NQueens {
 		input.close();
 	}
 	
-	public void solutions(int n){
+	public int solutions(int n){
 		int[][] b = new int[n][n];
 		placeQueen(b, 0, 0, n);
+		return getCount();
 	}
 	
 	public void placeQueen(int[][] board, int row, int column, int queens){
@@ -92,6 +100,7 @@ public class NQueens {
 		}
 		return true;
 	}
+	
 	public boolean checkDiagonal(int[][] board, int row, int column){
 		for(int i = 1; i < board.length ; i++){
 			if(row+i < board.length && column+i < board.length){
