@@ -1,0 +1,11 @@
+CTsang-MacBook-Pro:Homework5 dtsang$ javac MonteCarlo.java
+CTsang-MacBook-Pro:Homework5 dtsang$ java MonteCarlo
+Quarter circle area with radius 1: 0.7853981633974483
+Square area with length 1: 1.0
+Ratio of area: 0.7853981633974483 to 1
+
+Number of dots outside circle: 8.58436975E8
+Number of dots inside circle: 3.141563025E9
+Ratio of dots: 0.78539075625 to 1
+Monte Carlo Pi value: 3.141563025
+CTsang-MacBook-Pro:Homework5 dtsang$ 
