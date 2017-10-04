@@ -1,0 +1,35 @@
+Homework 6
+Question 2
+
+1a)
+Answer: call(int k) from Dog class is called
+Output: Woof, woof, woof! 
+
+1b)
+Answer: toString() from Cat class is called
+Output: I'm a cat, go away!
+
+1c)
+Answer: Error. Cannot find call() from Object class
+
+1d)
+Answer: Object.toString() is called
+Output: hashcode of object
+
+1e)
+Answer: call() from Dog class is called
+Output: woof!
+
+1f)
+Answer: toString(String b) from Cat class is called
+Output: Come here, kitty? ...Don't waste my time.
+
+1g)
+Answer: Error. Cannot find call() that accepts an integer in Cat class
+
+1h)
+Answer: The inherited feet() from Pet class is called
+Output: four
+
+1i)
+Answer: Error. Cannot find call() that accepts an integer in Pet class

@@ -1,0 +1,4 @@
+CTsang-MBP:Homework6 dtsang$ javac package1/Parent.java package2/Child.java
+CTsang-MBP:Homework6 dtsang$ java package2/Child
+From parent.
+CTsang-MBP:Homework6 dtsang$ 
