@@ -39,6 +39,8 @@ public class Serialization{
 
 		//this line changes the value of the static variable firstName;
 		emp.firstName = "Kevin";
+		//this line changes the value of the public variable lastName;
+		emp.lastName = "Bacon";
 
 		//Deserializing starts here.
 		Employee newEmp = null;

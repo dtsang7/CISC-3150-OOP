@@ -1,22 +1,56 @@
-CTsang-MBP:Desktop dtsang$ javac Calculator.java
-CTsang-MBP:Desktop dtsang$ java Calculator "( 2 + 5 ) * 3"
-21
-CTsang-MBP:Desktop dtsang$ java Calculator "2 + 5 * 3"
-17
-CTsang-MBP:Desktop dtsang$ java Calculator "4 * ( 3 + 4 ) - 2"
-26
-CTsang-MBP:Desktop dtsang$ java Calculator "16 / 4 % 3"
-1
-CTsang-MBP:Desktop dtsang$ java Calculator "16 / ( 4 % 3 )"
-16
-CTsang-MBP:Desktop dtsang$ java Calculator "16 + 4 / ( 3 - 3 )"
-Division by zero exception was caught
-CTsang-MBP:Desktop dtsang$ java Calculator "2.5 * 4 / 0.5"
-20
-CTsang-MBP:Desktop dtsang$ java Calculator "3 + -"
-Okay... Mr. Algebra
-CTsang-MBP:Desktop dtsang$ java Calculator "5 *"
-Missing number.
-CTsang-MBP:Desktop dtsang$ java Calculator "5 & 3"
-& Operation is not supported
+
+
+When running my serialization program i noticed something strange. First off in my program i have an ObjectOutputStream and ObjectInputStream in my main. It will first create an employee and output a txt file with its serialized data. It will close the output stream after it is finished. 
+Right after this it will create an inputstream and read in the txt file, cast it to a a different employee variable and display the information. This is the output of that:
+
+CTsang-MBP:Desktop dtsang$ javac Serialization.java
+CTsang-MBP:Desktop dtsang$ java Serialization
+Data has been serialized
+Data has been deserialized
+(public)lastName:		Brown
+(static)firstName:		Charlie
+(transient)address:		null
+(static)companyName:	Peanut
+(transient)companyCEO:	null
 CTsang-MBP:Desktop dtsang$ 
+
+It shows the same issue we had in class where only the transient variables were ignored by the outputstream. Nothing new here but when I run the program a little differently something else happens.
+This time I will only run the part where the data gets serialized and comment out the deserializing part of the code. This is the output:
+
+CTsang-MBP:Desktop dtsang$ javac Serialization.java
+CTsang-MBP:Desktop dtsang$ java Serialization
+Data has been serialized
+CTsang-MBP:Desktop dtsang$ 
+
+Okay there were no issues. Now I am going to comment out the serializing part and only run the deserializing part of the code. This is the output:
+
+CTsang-MBP:Desktop dtsang$ javac Serialization.java
+CTsang-MBP:Desktop dtsang$ java Serialization
+Data has been deserialized
+(public)lastName:		Brown
+(static)firstName:		null
+(transient)address:		null
+(static)companyName:	null
+(transient)companyCEO:	null
+CTsang-MBP:Desktop dtsang$ 
+
+Different.....as you can see this time around the static variable did not get serialized. I believe that the problem does not lie within the stream itself, I do not think any static data was written out to the txt file. I think that it has something to do with the variable being global(static). My theory is that when you create the class and initialize its static variable it will stay in the class for the duration of the program.
+
+To test my theory out I will add 2 lines of code:
+emp.firstName = "Kevin"; 
+emp.lastName = "Bacon";
+The firstName variable is static and the lastName variable is public. These lines will come after I have serialized the data, output it to a txt file and closed the outputstream. Now I will deserialize the data from the txt file and put it in a new Employee variable called newEmp which is initialized to null. If the static data from emp has truly been serialized we should see "Charlie" as the firstName and to make sure that data that are suppose to be serialized we changed the public variable lastName. Here is the output:
+
+CTsang-MBP:Homework7 dtsang$ javac Serialization.java 
+CTsang-MBP:Homework7 dtsang$ java Serialization
+Data has been serialized
+Data has been deserialized
+(public)lastName:		Brown
+(static)firstName:		Kevin
+(transient)address:		null
+(static)companyName:	Peanut
+(transient)companyCEO:	null
+CTsang-MBP:Homework7 dtsang$ 
+
+We can see that the firstName is "Kevin" instead of "Charlie" and that lastName is not "Bacon" but "Brown". This shows that static variable firstName got its value from the class and public variable got its value from deserialized data of the txt file. This proves that static data is not written to txt file but that static variable get there value from the class itself.
+
