@@ -1,0 +1,22 @@
+CTsang-MBP:Desktop dtsang$ javac Calculator.java
+CTsang-MBP:Desktop dtsang$ java Calculator "( 2 + 5 ) * 3"
+21
+CTsang-MBP:Desktop dtsang$ java Calculator "2 + 5 * 3"
+17
+CTsang-MBP:Desktop dtsang$ java Calculator "4 * ( 3 + 4 ) - 2"
+26
+CTsang-MBP:Desktop dtsang$ java Calculator "16 / 4 % 3"
+1
+CTsang-MBP:Desktop dtsang$ java Calculator "16 / ( 4 % 3 )"
+16
+CTsang-MBP:Desktop dtsang$ java Calculator "16 + 4 / ( 3 - 3 )"
+Division by zero exception was caught
+CTsang-MBP:Desktop dtsang$ java Calculator "2.5 * 4 / 0.5"
+20
+CTsang-MBP:Desktop dtsang$ java Calculator "3 + -"
+Okay... Mr. Algebra
+CTsang-MBP:Desktop dtsang$ java Calculator "5 *"
+Missing number.
+CTsang-MBP:Desktop dtsang$ java Calculator "5 & 3"
+& Operation is not supported
+CTsang-MBP:Desktop dtsang$ 
