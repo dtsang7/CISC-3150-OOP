@@ -3,6 +3,7 @@
 *
 *	This program goes through a specified file system and outputs a tree diagram of all
 *	the directories into a file called dir_tree.txt.
+*
 */
 import java.io.*;
 public class FileDiagram{
