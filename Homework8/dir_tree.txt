@@ -1,122 +1,125 @@
 Desktop
 	|____Solution.java
+	|____DemoThread.class
 	|____Solution.class
 	|____dir_tree.txt
 	|____CISC3220_Algo
-			|____Homework_Chapter3_Algo.docx
-			|____Algorithm quiz 2 review.docx
-			|____Homework Chapter 6.docx
-			|____Homework Chapter 7.docx
-			|____Homework Chapter 4.docx
-			|____Cormen_Algorithms_3rd.pdf
-			|____Homework Chapter 8.docx
-			|____Homework Chapter 9.docx
-			|____Homework Questions before Chapter 9.docx
-			|____CISC3220_HW0andHW1.docx
-			|____Homework Chapter 12.docx
+	|		|____Homework_Chapter3_Algo.docx
+	|		|____Algorithm quiz 2 review.docx
+	|		|____Homework Chapter 6.docx
+	|		|____Homework Chapter 7.docx
+	|		|____Homework Chapter 4.docx
+	|		|____Cormen_Algorithms_3rd.pdf
+	|		|____Homework Chapter 8.docx
+	|		|____Homework Chapter 9.docx
+	|		|____Homework Questions before Chapter 9.docx
+	|		|____CISC3220_HW0andHW1.docx
+	|		|____Homework Chapter 12.docx
 	|____Ethics_outline_chapter_3-6.docx
 	|____CISC2820_Ethics
-			|____Ethics_A_1_2_outline.docx
-			|____Tsang_Chipok_ Big_Data.docx
-			|____Ethics_syllabus.doc
-			|____Comp ethics
-					|____Sandel paper.docx
-					|____Sandel Paper (finished).docx
-					|____Sandel Paper (done, revise).docx
-					|____ROBO KILLER PAPER .docx
-					|____Computer Ethics Terms .docx
-					|____comp ethics paper 2 .docx
-					|____Bill Gates Paper .docx
-					|____Mignonette Paper .docx
-			|____Ethics in Information Technology, 5th ed..pdf
-			|____appendix a.doc
-			|____2017_fall_cisc2820w_tr11(2).doc
-			|____Cisc 2820W Writing Assignment1.docx
-			|____chapter 2.doc
-			|____oct16.docx
-			|____chapter 1.doc
+	|		|____Ethics_A_1_2_outline.docx
+	|		|____Tsang_Chipok_ Big_Data.docx
+	|		|____Ethics_syllabus.doc
+	|		|____Comp ethics
+	|		|		|____Sandel paper.docx
+	|		|		|____Sandel Paper (finished).docx
+	|		|		|____Sandel Paper (done, revise).docx
+	|		|		|____ROBO KILLER PAPER .docx
+	|		|		|____Computer Ethics Terms .docx
+	|		|		|____comp ethics paper 2 .docx
+	|		|		|____Bill Gates Paper .docx
+	|		|		|____Mignonette Paper .docx
+	|		|____Ethics in Information Technology, 5th ed..pdf
+	|		|____appendix a.doc
+	|		|____2017_fall_cisc2820w_tr11(2).doc
+	|		|____Cisc 2820W Writing Assignment1.docx
+	|		|____chapter 2.doc
+	|		|____oct16.docx
+	|		|____chapter 1.doc
 	|____FileDiagram.java
 	|____images
-			|____cat.jpg
+	|		|____cat.jpg
 	|____Résumé
-			|____Tsang_Chipok_resume_2:14:17.pdf
-			|____~$ang_Chipok_resume_edit.docxcx
-			|____Okta_cover_letter_4:12:17.pdf
-			|____Tsang_Chipok_resume_2:8:17.pdf
-			|____~$tegral_Ad_Science_cover_letter.docxcx
-			|____~$NY_ASAP_cover_letter.docxcx
-			|____Tsang_Chipok_resume.docx
-			|____Madison_Logic_cover_letter.docx
-			|____Tsang_Chipok_resume_MR.pdf
-			|____profilePic.jpg
-			|____Tsang_Chipok_resume_1.pdf
-			|____Integral_Ad_Science_cover_letter.docx
-			|____~$ang_Chipok_resume_CUNY_ASAP.docxcx
-			|____Tsang_Chipok_resume_9:13:17.docx
-			|____Okta_cover_letter_4:12:17.docx
-			|____CUNY_ASAP_cover_letter.docx
-			|____Tsang_Chipok_resume_2:15:17.pdf
-			|____~$ta_cover_letter_4:12:17.docxcx
-			|____~$dison_Logic_cover_letter.docxcx
-			|____Tsang_Chipok_resume_CUNY_ASAP.pdf
-			|____Tsang_Chipok_resume_3:23:17.pdf
-			|____Tsang_Chipok_resume_CUNY_ASAP.docx
-			|____Amazon_cover_letter_11:9:16.docx
-	|____null
+	|		|____Tsang_Chipok_resume_2:14:17.pdf
+	|		|____~$ang_Chipok_resume_edit.docxcx
+	|		|____Okta_cover_letter_4:12:17.pdf
+	|		|____Tsang_Chipok_resume_2:8:17.pdf
+	|		|____~$tegral_Ad_Science_cover_letter.docxcx
+	|		|____~$NY_ASAP_cover_letter.docxcx
+	|		|____Tsang_Chipok_resume.docx
+	|		|____Madison_Logic_cover_letter.docx
+	|		|____Tsang_Chipok_resume_MR.pdf
+	|		|____profilePic.jpg
+	|		|____Tsang_Chipok_resume_1.pdf
+	|		|____Integral_Ad_Science_cover_letter.docx
+	|		|____~$ang_Chipok_resume_CUNY_ASAP.docxcx
+	|		|____Tsang_Chipok_resume_9:13:17.docx
+	|		|____Okta_cover_letter_4:12:17.docx
+	|		|____CUNY_ASAP_cover_letter.docx
+	|		|____Tsang_Chipok_resume_2:15:17.pdf
+	|		|____~$ta_cover_letter_4:12:17.docxcx
+	|		|____~$dison_Logic_cover_letter.docxcx
+	|		|____Tsang_Chipok_resume_CUNY_ASAP.pdf
+	|		|____Tsang_Chipok_resume_3:23:17.pdf
+	|		|____Tsang_Chipok_resume_CUNY_ASAP.docx
+	|		|____Amazon_cover_letter_11:9:16.docx
+	|____DemoThread.java
 	|____CISC3150_OOP
-			|____Homework3
-					|____Driver.java
-					|____Driver_ouput.txt
-					|____Driver.class
-					|____MyString.java
-					|____MyString.class
-			|____Homework4
-					|____NQueens.class
-					|____NQueens_output.txt
-					|____NQueens.java
-			|____Homework2
-					|____Question5.java
-					|____Question5_output
-					|____Question1_output
-					|____Question3.java
-					|____Question2.java
-					|____Question3_output
-					|____Question3.class
-					|____Question6_output
-					|____Question1.java
-					|____Question1.class
-					|____Question5.class
-					|____Homework2.zip
-					|____Question2.class
-					|____Question2_output
-					|____Question6.class
-					|____Question6.java
-			|____java_notes.txt
-			|____Notes OOP 9:26:2017
-			|____Homework1
-					|____Question5.java
-					|____numbers.txt
-					|____Question5_output
-					|____Question4.java
-					|____Question3.java
-					|____Question2.java
-					|____Question3_output
-					|____Question6_output
-					|____Question4_output
-					|____Homework1.zip
-					|____Question2_output
-					|____Question6.java
-					|____Question1
+	|		|____Homework3
+	|		|		|____Driver.java
+	|		|		|____Driver_ouput.txt
+	|		|		|____Driver.class
+	|		|		|____MyString.java
+	|		|		|____MyString.class
+	|		|____Homework4
+	|		|		|____NQueens.class
+	|		|		|____NQueens_output.txt
+	|		|		|____NQueens.java
+	|		|____Homework2
+	|		|		|____Question5.java
+	|		|		|____Question5_output
+	|		|		|____Question1_output
+	|		|		|____Question3.java
+	|		|		|____Question2.java
+	|		|		|____Question3_output
+	|		|		|____Question3.class
+	|		|		|____Question6_output
+	|		|		|____Question1.java
+	|		|		|____Question1.class
+	|		|		|____Question5.class
+	|		|		|____Homework2.zip
+	|		|		|____Question2.class
+	|		|		|____Question2_output
+	|		|		|____Question6.class
+	|		|		|____Question6.java
+	|		|____java_notes.txt
+	|		|____Notes OOP 9:26:2017
+	|		|____Homework8
+	|		|		|____FileDiagram.class
+	|		|____Homework1
+	|		|		|____Question5.java
+	|		|		|____numbers.txt
+	|		|		|____Question5_output
+	|		|		|____Question4.java
+	|		|		|____Question3.java
+	|		|		|____Question2.java
+	|		|		|____Question3_output
+	|		|		|____Question6_output
+	|		|		|____Question4_output
+	|		|		|____Homework1.zip
+	|		|		|____Question2_output
+	|		|		|____Question6.java
+	|		|		|____Question1
 	|____CISC3320_OS
-			|____ch06.ppt
-			|____ch04.ppt
-			|____ch05.ppt
-			|____Operating Systems Homework 1.docx
-			|____ch01.ppt
-			|____ch02.ppt
-			|____ch03.ppt
-			|____OS_homework2.docx
-			|____Homework1_OS
-			|____Abraham-Silberschatz-Operating-System-Concepts-9th2012.12.pdf
-			|____Operating Systems Homework 2.docx
+	|		|____ch06.ppt
+	|		|____ch04.ppt
+	|		|____ch05.ppt
+	|		|____Operating Systems Homework 1.docx
+	|		|____ch01.ppt
+	|		|____ch02.ppt
+	|		|____ch03.ppt
+	|		|____OS_homework2.docx
+	|		|____Homework1_OS
+	|		|____Abraham-Silberschatz-Operating-System-Concepts-9th2012.12.pdf
+	|		|____Operating Systems Homework 2.docx
 	|____FileDiagram.class

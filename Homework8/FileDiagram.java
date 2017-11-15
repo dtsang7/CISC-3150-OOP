@@ -1,3 +1,10 @@
+/*
+*	Chipok Tsang
+*
+*	This program goes through a specified file system and outputs a tree diagram of all
+*	the directories into a file called dir_tree.txt.
+*
+*/
 import java.io.*;
 public class FileDiagram{
 	static FileWriter textOutput;
@@ -15,7 +22,6 @@ public class FileDiagram{
 		}catch(IOException ex){
 			System.out.println("IOException caught");
 		}
-		
 	}
 
 	public static void directory(File dir, int tab) throws IOException{
@@ -31,20 +37,33 @@ public class FileDiagram{
 				//ignore;
 			}
 			else if(list[i].isDirectory()){
-				
-				for(int j = 0; j < tab; j++){
-					textOutput.append("\t");
+				for(int j = 1; j <= tab; j++){
+					if(j%2 == 1){
+						textOutput.append("\t");
+						textOutput.append("|");
+
+					}
+					else{
+						textOutput.append("\t");
+					}
+					
 				}
-				textOutput.append("|");
 				textOutput.append("____" + list[i].getName() + "\n");
 				directory(list[i], tab + 2);
 			}
 			else{
 				
-				for(int j = 0; j < tab; j++){
-					textOutput.append("\t");
+				for(int j = 1; j <= tab; j++){
+					if(j%2 == 1){
+						textOutput.append("\t");
+						textOutput.append("|");
+
+					}
+					else{
+						textOutput.append("\t");
+					}
+					
 				}
-				textOutput.append("|");
 				textOutput.append("____" + list[i].getName() + "\n");
 			}
 		}

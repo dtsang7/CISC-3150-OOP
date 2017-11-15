@@ -1,0 +1,6 @@
+To figure out why the progam using Thread.sleep() would stop running when you right
+clicked and marked texts in the DOS window. I wrote a program to reproduce the same
+issue on my macbook but had a different result. While the program on my computer
+was running with delay of Thread.sleep(), I right clicked and try to mark texts
+in the Terminal, the program was not interrupted. It continues to run regardless of
+me doing anything. Therefore I believe that this is a Windows issue.
