@@ -1,0 +1,29 @@
+CTsang-MBP:Desktop dtsang$ javac MultiThread.java
+CTsang-MBP:Desktop dtsang$ java MultiThread
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+CTsang-MBP:Desktop dtsang$ 
